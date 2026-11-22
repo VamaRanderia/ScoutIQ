@@ -5,18 +5,18 @@
 
 ---
 
-### 1. The Genesis: What I Observed in the Field
+### 1. The Context: Grounding in an Enterprise Automotive Challenge
 
-When I began exploring how Fortune 500 enterprises partner with emerging technology startups, I spent several weeks shadowing the open innovation and engineering teams at a tier-1 global automotive OEM. 
+To ground this case study in a high-stakes, real-world industry problem, I selected the automotive manufacturing sector as the reference environment. 
 
-Their powertrain division was under immense pressure: the European Union Battery Regulation and US Inflation Reduction Act had introduced stringent circularity and recycled material quotas starting in 2027. The VP of Powertrain handed our lead scout a clear mandate: *"Find the top 3 startup partners in Europe or North America specializing in closed-loop hydrometallurgical recycling who can recover $>95\%$ battery-grade lithium from our scrap cells."*
+Global automotive OEMs face intense regulatory urgency: the European Union Battery Regulation and US Inflation Reduction Act introduce strict circularity, recycled material quotas, and battery passport requirements beginning in 2027. Under this scenario, an OEM powertrain division establishes a specific innovation brief: *"Identify and qualify the top 3 startup partners in Europe or North America specializing in closed-loop hydrometallurgical recycling who can recover $>95\%$ battery-grade lithium from scrap cells."*
 
-What followed was painful to watch. The team spent 30+ hours over two weeks bouncing between PitchBook, Google Patents, scientific journals, and corporate websites. They compiled a 50-row spreadsheet of company names, but when they presented their top recommendations to the Director of Materials Engineering, the meeting stalled immediately. The engineering team asked basic technical questions:
-* *Was this 98% yield achieved on pure synthetic cathode salts or contaminated industrial black mass?*
+Analyzing this workflow reveals a breakdown in traditional scouting methods. Innovation teams typically spend 30+ hours over multiple weeks manually cross-referencing PitchBook, Google Patents, scientific literature, and corporate websites. When candidate shortlists reach the Director of Materials Engineering, technical evaluation often stalls over basic validation questions:
+* *Was this 98% yield achieved on pure synthetic cathode salts or real contaminated industrial black mass?*
 * *Is this patent granted, or is it just an unexamined provisional application?*
 * *Do they operate an actual continuous pilot plant, or is this just a benchtop batch experiment?*
 
-The innovation scouts couldn't answer because their tools only indexed funding rounds, headcounts, and self-reported marketing blurbs. The scouts were frustrated, the engineers felt their time was wasted, and the corporate mandate remained unfulfilled.
+Current commercial directories only index funding rounds, employee counts, and self-reported press blurbs. The scouts are frustrated, the engineers feel their time was wasted, and the corporate mandate remains unfulfilled.
 
 #### 1.1 The Core Problem Statement
 Enterprise innovation and corporate R&D teams lose weeks of high-value engineering time manually cross-referencing fragmented databases, patents, and academic literature because existing venture platforms prioritize funding publicity over technical validation. As a result, technical leaders routinely reject scouted startups during technical due diligence due to uncorroborated performance assertions, lack of patent defensibility, and opaque readiness metrics.
@@ -25,11 +25,11 @@ Enterprise innovation and corporate R&D teams lose weeks of high-value engineeri
 
 ---
 
-### 2. User Personas: The Three Stakeholders I Interviewed
+### 2. User Personas: Three Core Enterprise Stakeholder Archetypes
 
-To ensure I wasn't just solving a localized problem for one team, I mapped out the three distinct enterprise stakeholders who must align before any startup partnership, pilot, or investment is approved.
+To model the multi-stakeholder dynamics and conflicting incentives of corporate technology adoption, I synthesized three representative enterprise personas (composite archetypes) based on industry research into corporate R&D and open innovation workflows (*all names and quotes are illustrative models, not real individuals*):
 
-#### Persona 1: Elena Rostova — Lead Open Innovation Scout (My Primary Persona)
+#### Persona 1: Elena Rostova — Lead Open Innovation Scout (Primary Persona Archetype)
 * **Organization:** Global Automotive OEM (Passenger & Commercial EV Division)
 * **Role & Mandate:** Identifies external startups, novel materials, and advanced manufacturing processes to feed the OEM's 3–7 year powertrain roadmap.
 * **Goals:**

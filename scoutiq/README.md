@@ -35,7 +35,7 @@ I structured this case study to reflect how I run product from discovery through
 
 | Folder / Document | Deliverable | What's Inside & My Key Decisions |
 | :--- | :--- | :--- |
-| 📖 **[`CASE_STUDY.md`](./CASE_STUDY.md)** | **Master Case Study** | **Start here.** My first-person narrative story: how I found the problem, user interviews, core insights, trade-offs, and lessons learned. |
+| 📖 **[`CASE_STUDY.md`](./CASE_STUDY.md)** | **Master Case Study** | **Start here.** My first-person narrative story: problem framing, stakeholder personas, core insights, trade-offs, and lessons learned. |
 | 🔍 **[`01-discovery/discovery.md`](./01-discovery/discovery.md)** | **Product Discovery** | My problem breakdown, "How Might We", 3 stakeholder personas (Elena, Dr. Marcus, Maya), user journey map table, and ranked opportunity areas. |
 | 📋 **[`02-strategy-prd/prd.md`](./02-strategy-prd/prd.md)** | **Strategy & PRD** | Product vision, MVP scope, 19 numbered functional requirements (FR-1..19), 12 user stories with Given/When/Then acceptance criteria, MoSCoW & RICE scoring, and my MAUT weighted fit model. |
 | 💻 **[`03-prototype/`](./03-prototype/)** | **Interactive Prototype** | Working React 19 + Vite + Tailwind CSS app. Features 5 interactive screens, real-time slider re-ranking, 4-tier verification badges, and print-ready PDF export. |

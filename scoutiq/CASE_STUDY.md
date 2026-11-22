@@ -1,7 +1,7 @@
 # ScoutIQ: Designing an Evidence-First Technology Intelligence Platform
 ## A Product Management Case Study by a Senior Product Manager
 
-> **Disclaimer & Framing:** This is an end-to-end **Product Management Case Study** with a fully functional interactive prototype. It represents my conceptual product strategy, system design, and frontend/backend prototyping work—it is **not** a commercially deployed product. All company names, data points, patent numbers, and interview excerpts are **fictional** and labeled as **illustrative data** to model a realistic enterprise scenario without making claims about real companies.
+> **Disclaimer & Framing:** This is an end-to-end **Product Management Case Study** with a fully functional interactive prototype. It represents my conceptual product strategy, system design, and frontend/backend prototyping work—it is **not** a commercially deployed product. All company names, data points, patent numbers, and persona quotes are **fictional** and constitute **illustrative models** to simulate a realistic enterprise scenario without making claims about real companies.
 
 ---
 
@@ -17,41 +17,43 @@
 
 ---
 
-### 1. The Spark: How I Found the Problem
+### 1. The Spark: Anchoring in an Enterprise Scenario
 
-A few months ago, I was embedded with the open innovation team of a major automotive OEM. Their powertrain division had just received an urgent mandate from executive leadership:
+To design a grounded, enterprise-grade AI product, I chose to anchor this case study in a high-stakes, real-world industry scenario: **global automotive manufacturing under tightening circularity regulations.**
 
-> *"The 2027 EU Battery Regulation is going to penalize us heavily unless we close the loop on our battery supply chain. Find us the top 3 startup partners in Europe or North America specializing in continuous hydrometallurgical recycling who can recover at least 95% of battery-grade lithium from our scrap."*
+Under the 2027 EU Battery Regulation and US Inflation Reduction Act, automotive OEMs face severe regulatory penalties unless they build closed-loop battery recycling supply chains. In this scenario, an executive leadership team issues a direct innovation mandate:
 
-I watched the lead innovation scout, Elena, sit down to tackle this. I assumed she would open an enterprise tool, punch in the parameters, and have a solid list by lunch.
+> *"The 2027 EU Battery Regulation will penalize us heavily unless we close the loop on our battery supply chain. Find us the top 3 startup partners in Europe or North America specializing in continuous hydrometallurgical recycling who can recover at least 95% of battery-grade lithium from our scrap."*
 
-Instead, I watched her spend three full days across **PitchBook, Crunchbase, Google Patents, Google Scholar, and 45 browser tabs**.
+When analyzing how an enterprise innovation team tackles this challenge today, a major breakdown emerges. A scout typically spends days across **PitchBook, Crunchbase, Google Patents, Google Scholar, and 40+ browser tabs**.
 
-By Thursday, she had a spreadsheet with 30 companies. But when she took her top three to Dr. Marcus, the Director of Battery & Materials Engineering, the meeting was over in 15 minutes. Marcus took one look at her top-ranked startup and asked:
-* *"Where did you get this 99% lithium recovery number? Their website?"*
+By the end of the week, they have a spreadsheet of 30 companies. But when they present their top candidates to the Director of Materials Engineering, the meeting stalls within 15 minutes. The technical team asks hard engineering questions:
+* *"Where did you get this 99% lithium recovery number? Their marketing site?"*
 * *"Was this tested on clean synthetic cathode powder or real, contaminated black mass?"*
 * *"Is this patent granted, or is it just an unexamined application?"*
-* *"Do they actually have a working pilot plant, or is this just a benchtop beaker in a university basement?"*
+* *"Do they actually operate a continuous pilot plant, or is this just a benchtop batch experiment in a university lab?"*
 
-Elena couldn't answer. None of the tools she used gave her that information. She was demoralized, Marcus felt his time was wasted, and the OEM was still nowhere closer to securing a recycling partner.
+Traditional tools only index funding rounds, employee counts, and self-reported press blurbs. The scouts are frustrated, the engineers feel their time was wasted, and the corporate mandate remains stalled.
 
-That was the moment I realized: **enterprise innovation doesn't have a discovery problem. It has an evidence verification problem.**
+This disconnect highlights the core thesis of this project: **enterprise innovation doesn't have a discovery problem; it has an evidence verification problem.**
 
 ---
 
-### 2. What I Saw in the Field: User Discovery
+### 2. User Research Modeling: The Three Core Stakeholder Archetypes
 
-To make sure this wasn't just one frustrated team, I conducted user discovery interviews across three key stakeholder archetypes involved in corporate technology adoption (*illustrative data*):
+To model the conflicting incentives and organizational friction in corporate technology adoption, I synthesized three representative stakeholder personas (composite archetypes) based on industry research into corporate R&D and open innovation dynamics (*illustrative models*):
 
 ```
        [ Elena Rostova ]                 [ Dr. Marcus Vance ]                  [ Maya Chen ]
-       Innovation Scout                  Director of R&D / Engineering         CVC Investment Associate
+       Innovation Scout Archetype        R&D Engineering Lead Archetype        CVC Investor Archetype
   "I drown in 40 browser tabs       "Don't show me their seed round.       "Brilliant chemistry is useless
    and spend 30 hours cross-         Show me the XRD spectra, the pilot     if unit economics don't scale
    checking patent claims."          permits, and the granted claims."      at commercial volume."
 ```
 
-#### The Friction Points I Uncovered:
+*(Note: Elena, Marcus, and Maya are composite personas created to model enterprise workflows, decision criteria, and friction points; they are illustrative models, not real individuals.)*
+
+#### The Structural Friction Points:
 1. **Financial Bias as a Proxy for Tech Maturity:** Tools like PitchBook rank companies by capital raised. But in automotive manufacturing, venture funding doesn't tell you if a continuous reactor can run without clogging. A startup with \$14M in grant funding and an operating 1,000 t/year pilot in Germany is far more valuable to an OEM than a \$100M Silicon Valley darling with no physical plant.
 2. **The "Black Box Claim" Trap:** Startups make bold assertions in pitch decks (*"99% recovery at ambient temperature"*). Scouts pass these along. Engineers distrust them. The handoff between innovation scouts and technical R&D is broken because there is no shared standard of proof.
 3. **Data Silos:** To evaluate a single company, an analyst has to synthesize three completely different data universes:
