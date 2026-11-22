@@ -7,7 +7,7 @@
 
 ### Welcome to ScoutIQ 👋
 
-Hi, I'm a Senior Product Manager. I designed and built **ScoutIQ** to solve a critical enterprise bottleneck: **how corporate innovation and R&D teams evaluate, verify, and partner with early-stage technology providers.**
+I designed and built **ScoutIQ** to solve a critical enterprise bottleneck: **how corporate innovation and R&D teams evaluate, verify, and partner with early-stage technology providers.**
 
 To ground this case study in a high-stakes engineering challenge, I modeled the end-to-end workflow of an **automotive OEM innovation team** searching for **closed-loop EV battery recycling partners** under the 2027 EU Battery Regulation.
 
