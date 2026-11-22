@@ -108,7 +108,7 @@ I designed four structured experiments to test user behavior, trust, and workflo
 ### 5. Go-To-Market (GTM) Strategy & Commercialization
 
 #### 5.1 Ideal Customer Profile (ICP)
-* **Target Segment:** Tier-1 Global Automotive OEMs and Heavy Industrial Manufacturers ($>\$5\text{B}$ annual revenue) with dedicated Open Innovation and Powertrain/CleanTech R&D divisions.
+* **Target Segment:** Tier-1 Global Automotive OEMs and Heavy Industrial Manufacturers (over \$5B annual revenue) with dedicated Open Innovation and Powertrain/CleanTech R&D divisions.
 * **Economic Buyer:** Vice President of Open Innovation, Chief Technology Officer (CTO), or Head of Corporate R&D.
 * **Primary Users:** Innovation Scouts, Lead Materials Engineers, and Corporate Venture Capital Investment Associates.
 * **Immediate Regulatory Catalyst:** 2027 European Union Battery Regulation (mandating recycled material quotas and battery passports) and US Inflation Reduction Act localized supply requirements.

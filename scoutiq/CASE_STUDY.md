@@ -201,7 +201,7 @@ A shortlist only counts if:
 #### GTM Strategy: The 90-Day Pilot
 Enterprise automotive procurement takes 6 to 9 months. To overcome this, I designed a **\$15,000 / 90-Day Innovation Sprint Pilot** for 3 seats. 
 
-Because \$15k sits below the discretionary corporate credit card approval limit ($<\$20\text{k}$) for most VPs of Open Innovation, teams can buy without going through procurement committees. Once we prove an 80% acceptance rate with R&D during the pilot, converting them to an annual \$48,000 license becomes straightforward.
+Because a \$15,000 pilot fee sits comfortably below the standard \$20,000 discretionary corporate credit card sign-off threshold for most VPs of Open Innovation, teams can purchase immediately without waiting for formal procurement committee approvals. Once we prove an 80% acceptance rate with R&D during the pilot, converting them to an annual \$48,000 enterprise subscription becomes straightforward.
 
 ---
 
