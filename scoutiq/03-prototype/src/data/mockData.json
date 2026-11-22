@@ -1,0 +1,495 @@
+{
+  "_meta": {
+    "title": "ScoutIQ Prototype Dataset",
+    "status": "Product Management Case Study - Illustrative data",
+    "notice": "All entities, metrics, patents, papers, and claims in this dataset are strictly FICTIONAL and generated for demonstration purposes."
+  },
+  "defaultScenario": {
+    "id": "proj-ev-rec-2026",
+    "title": "Closed-Loop EV Battery Recycling & Hydrometallurgical Purity",
+    "industry": "Automotive & Clean Mobility",
+    "technologyArea": "Hydrometallurgy & Direct Recycling",
+    "geography": "Europe & North America",
+    "minTrl": 6,
+    "maxTrl": 8,
+    "prompt": "Identify emerging technology providers specializing in closed-loop hydrometallurgical or direct recycling of lithium-ion EV battery packs (NMC chemistries). Must achieve >95% recovery yield of battery-grade lithium carbonate/hydroxide with verified continuous pilot operations in EU or North America.",
+    "mustHaves": [
+      "Lithium recovery yield >95%",
+      "Continuous pilot operational (TRL >= 6)",
+      "Battery-grade purity (>99.5%)",
+      "Granted or pending patent protection in EU/US"
+    ],
+    "weights": {
+      "technicalMaturity": 25,
+      "industrialScalability": 25,
+      "ipStrength": 20,
+      "commercialAlignment": 15,
+      "performanceYield": 15
+    }
+  },
+  "savedProjects": [
+    {
+      "id": "proj-ev-rec-2026",
+      "name": "EV Battery Recycling & Hydrometallurgical Purity",
+      "sector": "CleanTech / Automotive",
+      "lastRun": "2026-11-08",
+      "topCandidate": "Circura Materials GmbH",
+      "candidateCount": 5,
+      "status": "Completed"
+    },
+    {
+      "id": "proj-solidstate-2026",
+      "name": "Solid-State Sulfide Electrolyte Scale-up",
+      "sector": "Battery Chemistry",
+      "lastRun": "2026-10-24",
+      "topCandidate": "IonVance Solid Chem (Illustrative)",
+      "candidateCount": 4,
+      "status": "Archived"
+    },
+    {
+      "id": "proj-h2-membrane-2026",
+      "name": "Zero-PFAS PEM Fuel Cell Membranes",
+      "sector": "Hydrogen Mobility",
+      "lastRun": "2026-09-15",
+      "topCandidate": "Protonix Polymer Labs (Illustrative)",
+      "candidateCount": 6,
+      "status": "Archived"
+    }
+  ],
+  "technologyCategories": [
+    {
+      "id": "hydrometallurgy",
+      "name": "Hydrometallurgy",
+      "description": "Chemical leaching and selective precipitation using organic or mild inorganic acids at moderate temperatures (<90°C).",
+      "marketShare": "45%",
+      "pros": "High lithium recovery rate (>95%), low direct carbon emissions, flexible for mixed cathode chemistries.",
+      "cons": "Requires chemical reagent management and closed-loop wastewater recycling."
+    },
+    {
+      "id": "direct-recycling",
+      "name": "Direct Cathode Recycling",
+      "description": "Relithiation and regeneration of cathode crystals without breaking down into constituent metal salts.",
+      "marketShare": "20%",
+      "pros": "Preserves crystal morphology, lowest energy footprint, avoids expensive chemical precursors.",
+      "cons": "Sensitive to feed contamination; difficult to apply to heterogeneous aged battery scrap."
+    },
+    {
+      "id": "pyrometallurgy",
+      "name": "Pyrometallurgical Smelting",
+      "description": "High-temperature thermal smelting (>1200°C) producing a cobalt-nickel alloy matte and slag.",
+      "marketShare": "25%",
+      "pros": "Robust to battery format; requires minimal mechanical dismantling; established industrial footprint.",
+      "cons": "Burns off lithium and graphite into slag; high greenhouse gas emissions; poor circularity."
+    },
+    {
+      "id": "automated-disassembly",
+      "name": "Automated Robotic Disassembly",
+      "description": "Vision-guided robotic pack unscrewing, busbar desoldering, and cell sorting prior to chemical processing.",
+      "marketShare": "10%",
+      "pros": "Eliminates dangerous manual high-voltage dismantling; reduces fire hazard during mechanical shredding.",
+      "cons": "High initial robotic capex; requires standardized pack CAD data across vehicle models."
+    }
+  ],
+  "startups": [
+    {
+      "id": "circura-materials",
+      "name": "Circura Materials GmbH",
+      "headline": "Continuous Low-Temperature Hydrometallurgical Cathode Upcycling",
+      "location": "Stuttgart, Germany",
+      "founded": 2021,
+      "funding": "$14.5M (Grant + Series A) [Illustrative]",
+      "category": "Hydrometallurgy",
+      "trl": 7,
+      "fitScore": 94,
+      "scoreBreakdown": {
+        "technicalMaturity": 92,
+        "industrialScalability": 95,
+        "ipStrength": 90,
+        "commercialAlignment": 96,
+        "performanceYield": 97
+      },
+      "recommendation": "Priority 1: Top Candidate for Joint Development Agreement (JDA) and physical assay validation.",
+      "overview": "Circura operates a continuous-flow 1,000 t/year operational hydrometallurgy pilot facility in Baden-Württemberg. Using proprietary citric-organic acid leaching at 65°C, they achieve >95.8% recovery of battery-grade lithium carbonate and >98% nickel/cobalt from aged EV black mass.",
+      "keyStrengths": [
+        "Operating 1,000 t/yr continuous pilot verified by independent technical audit",
+        "Battery-grade lithium purity (99.6%) demonstrated on real-world automotive scrap",
+        "4 granted European and US patents with zero external IP encumbrances",
+        "Pre-commercial supply agreement with European Tier-1 battery pack integrator"
+      ],
+      "keyRisks": [
+        "Reagent regeneration supply chain requires long-term vendor qualification",
+        "Expansion to 10,000 t/yr commercial site requires local environmental zoning permits"
+      ],
+      "comparisonMetrics": {
+        "technologyMaturity": "TRL 7 (Operational continuous pilot in Stuttgart, Germany)",
+        "patentEvidence": "4 Granted Patents (EP3892011B1, EP3914022B1, US11842001B2, US11905441B2)",
+        "publications": "4 peer-reviewed journal papers (Eur. J. Sustainable Met. 2023-2024)",
+        "commercialDeployment": "Verified operational pilot facility (1,000 t/yr capacity)",
+        "industrialPartnerships": "2 active industrial partnerships (Tier-1 Auto Consortium, Nordic Recycler)",
+        "fitScore": "94% (Weighted Fit)",
+        "strategicVerdict": "Shortlist #1: Immediate physical sample validation and JDA negotiations"
+      },
+      "findings": [
+        {
+          "id": "cm-f1",
+          "claim": "Continuous hydrometallurgical pilot plant operating at 1,000 metric tons/year capacity in Stuttgart, Germany.",
+          "status": "Verified fact",
+          "source": "State Industrial Environment Registry & Fraunhofer IPA Audit",
+          "date": "2024-04-12",
+          "sourceType": "Government Audit / Facility Registry",
+          "confidence": "High (98%)",
+          "snippet": "Facility inspection confirms continuous acid-leach pilot reactor operating at steady-state 1,000 t/a throughput processing NMC622 black mass."
+        },
+        {
+          "id": "cm-f2",
+          "claim": "Achieves 95.8% recovery yield of battery-grade lithium carbonate (>99.6% purity) from spent EV battery scrap.",
+          "status": "Verified fact",
+          "source": "European Journal of Sustainable Metallurgy, Vol. 18, pp. 112-128",
+          "date": "2024-02-18",
+          "sourceType": "Peer-Reviewed Journal",
+          "confidence": "High (96%)",
+          "snippet": "Analytical ICP-MS assays confirm 95.8 ± 0.4% Li recovery with iron and aluminum contaminant concentrations below 10 ppm."
+        },
+        {
+          "id": "cm-f3",
+          "claim": "Assignee of 4 granted patents covering selective ultrasonic-assisted organic acid leaching without toxic chlorine emissions.",
+          "status": "Verified fact",
+          "source": "European Patent Office (EPO) Register & USPTO Patent Public Search",
+          "date": "2023-11-30",
+          "sourceType": "Patent Registry",
+          "confidence": "High (99%)",
+          "snippet": "Patent EP3892011B1 granted with all 14 independent claims intact; no opposition proceedings filed."
+        },
+        {
+          "id": "cm-f4",
+          "claim": "Proprietary process reduces cradle-to-gate greenhouse gas emissions by 68% compared to pyrometallurgical smelting.",
+          "status": "Company-reported claim",
+          "source": "Circura Materials Corporate Sustainability Report 2024",
+          "date": "2024-05-15",
+          "sourceType": "Company Whitepaper",
+          "confidence": "Medium (74%)",
+          "snippet": "Self-reported Life Cycle Assessment (LCA) conducted using internal baseline models; third-party ISO 14044 verification in progress."
+        },
+        {
+          "id": "cm-f5",
+          "claim": "Industrial scale commercial plant capex estimated at $42M with EBITDA positive return at 8,000 t/year utilization.",
+          "status": "AI-generated inference",
+          "source": "ScoutIQ Techno-Economic Scalability Synthesis Model",
+          "date": "2026-11-10",
+          "sourceType": "Model Extrapolation",
+          "confidence": "Medium (68%)",
+          "snippet": "Derived by cross-referencing Circura's published bill of materials, reactor residence times, and regional German utility tariffs."
+        },
+        {
+          "id": "cm-f6",
+          "claim": "Secured commercial supply off-take contract with a Tier-1 German automotive manufacturer for 3,000 t/year.",
+          "status": "Could not be verified",
+          "source": "Founder Interview in Handelsblatt / TechCrunch",
+          "date": "2024-06-02",
+          "sourceType": "Media Mention",
+          "confidence": "Low (22%)",
+          "snippet": "Claims of a binding 3,000 t/year off-take agreement could not be confirmed in German corporate disclosures or OEM supply registers."
+        }
+      ]
+    },
+    {
+      "id": "hydravolt-solutions",
+      "name": "HydraVolt Solutions Inc.",
+      "headline": "Ambient-Pressure Selective Solvent Extraction for Secondary Batteries",
+      "location": "Hamilton, Ontario, Canada",
+      "founded": 2020,
+      "funding": "$22.0M (Series A) [Illustrative]",
+      "category": "Hydrometallurgy",
+      "trl": 6,
+      "fitScore": 89,
+      "scoreBreakdown": {
+        "technicalMaturity": 84,
+        "industrialScalability": 86,
+        "ipStrength": 88,
+        "commercialAlignment": 92,
+        "performanceYield": 94
+      },
+      "recommendation": "Priority 2: Qualified secondary partner; recommend technical due diligence on solvent degradation rates.",
+      "overview": "HydraVolt has pioneered ambient-pressure solvent extraction using specialized ionic liquids to selectively strip lithium and cobalt from shredded cell mass. They currently operate a 500 t/year demonstration facility in Hamilton, Ontario.",
+      "keyStrengths": [
+        "Ambient pressure leaching reduces autoclave pressure vessel capex by 40%",
+        "Demonstrated 94.2% lithium extraction efficiency on NMC811 cells",
+        "Close geographic proximity to North American Great Lakes automotive manufacturing corridor"
+      ],
+      "keyRisks": [
+        "Ionic liquid solvent replenishment cost is high at commercial scale",
+        "Facility throughput (500 t/yr) is half the scale of Circura Materials"
+      ],
+      "comparisonMetrics": {
+        "technologyMaturity": "TRL 6 (Continuous 500 t/yr demonstration plant in Ontario)",
+        "patentEvidence": "3 Granted Patents (US11450912B2, US11708821B2, CA3098112A1)",
+        "publications": "3 peer-reviewed conference and journal publications",
+        "commercialDeployment": "Operating 500 t/yr pilot facility",
+        "industrialPartnerships": "1 joint evaluation agreement with North American mining partner",
+        "fitScore": "89% (Weighted Fit)",
+        "strategicVerdict": "Shortlist #2: Initiate pilot facility site audit and evaluate solvent unit economics"
+      },
+      "findings": [
+        {
+          "id": "hv-f1",
+          "claim": "Operates 500 t/year ambient-pressure hydrometallurgical pilot in Hamilton, Ontario.",
+          "status": "Verified fact",
+          "source": "Ontario Ministry of the Environment & Climate Change Pilot Permit #ON-7782",
+          "date": "2023-09-14",
+          "sourceType": "Environmental Regulatory Permit",
+          "confidence": "High (97%)",
+          "snippet": "Approved continuous pilot testing facility operating under authorized environmental discharge limits."
+        },
+        {
+          "id": "hv-f2",
+          "claim": "Achieves 94.2% lithium extraction without requiring high-pressure autoclaves.",
+          "status": "Verified fact",
+          "source": "Canadian Journal of Chemical Engineering, Vol. 102",
+          "date": "2023-12-05",
+          "sourceType": "Peer-Reviewed Journal",
+          "confidence": "High (94%)",
+          "snippet": "Ambient pressure ionic solvent extraction demonstrates selective lithium dissolution at 45°C."
+        },
+        {
+          "id": "hv-f3",
+          "claim": "Proprietary ionic liquid solvent maintains 99% regeneration efficiency across 50 consecutive cycles.",
+          "status": "Company-reported claim",
+          "source": "HydraVolt Series A Investor Technical Briefing",
+          "date": "2024-03-20",
+          "sourceType": "Corporate Presentation",
+          "confidence": "Medium (62%)",
+          "snippet": "Laboratory internal testing shows solvent stability across 50 cycles; independent validation data pending."
+        },
+        {
+          "id": "hv-f4",
+          "claim": "Potential supply chain vulnerability regarding proprietary quaternary ammonium salts sourced from single supplier.",
+          "status": "AI-generated inference",
+          "source": "ScoutIQ Chemical Precursor Dependency Analyzer",
+          "date": "2026-11-10",
+          "sourceType": "Model Extrapolation",
+          "confidence": "Medium (71%)",
+          "snippet": "Chemical formula cited in patent claims indicates reliance on specialty reagents with limited merchant suppliers."
+        },
+        {
+          "id": "hv-f5",
+          "claim": "Patent filings in China and South Korea granted without prior-art restrictions.",
+          "status": "Could not be verified",
+          "source": "Startup Marketing Fact Sheet",
+          "date": "2024-01-15",
+          "sourceType": "Company Website",
+          "confidence": "Low (19%)",
+          "snippet": "Asian patent registries (CNIPA, KIPO) show applications pending examination with multiple citation rejections."
+        }
+      ]
+    },
+    {
+      "id": "pyroloop-technologies",
+      "name": "PyroLoop Technologies SAS",
+      "headline": "Industrial High-Throughput Clean Smelting & Metal Slag Recovery",
+      "location": "Lyon, France",
+      "founded": 2017,
+      "funding": "$85.0M (Series B + Industrial Loans) [Illustrative]",
+      "category": "Pyrometallurgy",
+      "trl": 8,
+      "fitScore": 82,
+      "scoreBreakdown": {
+        "technicalMaturity": 98,
+        "industrialScalability": 94,
+        "ipStrength": 85,
+        "commercialAlignment": 75,
+        "performanceYield": 60
+      },
+      "recommendation": "Priority 3: Viable stopgap partner for high-volume smelting, but fails closed-loop lithium circularity goals.",
+      "overview": "PyroLoop is an established industrial operator with an active 15,000 t/year smelting plant near Lyon. While they achieve 99.1% recovery of Nickel and Cobalt with massive throughput, their thermal process burns off graphite and captures only 62% of lithium in insoluble slag.",
+      "keyStrengths": [
+        "Highest operational throughput in cohort (15,000 t/year operational)",
+        "Proven ability to accept intact un-discharged modules without thermal runaway risk",
+        "Strong existing revenue and balance sheet stability"
+      ],
+      "keyRisks": [
+        "Substantially higher carbon footprint (>3.8 kg CO2e/kg metal recovered)",
+        "Inability to recover battery-grade lithium directly, conflicting with EU Battery Passport mandates"
+      ],
+      "comparisonMetrics": {
+        "technologyMaturity": "TRL 8 (Commercial plant operational in Lyon, France)",
+        "patentEvidence": "7 Granted Patents across EPO, USPTO, and JPO",
+        "publications": "6 industrial and conference publications",
+        "commercialDeployment": "Operational 15,000 t/yr commercial smelting facility",
+        "industrialPartnerships": "3 active multi-year OEM recycling contracts",
+        "fitScore": "82% (Weighted Fit)",
+        "strategicVerdict": "Shortlist #3: Strategic stopgap; re-evaluate once hydrometallurgy achieves parity"
+      },
+      "findings": [
+        {
+          "id": "pl-f1",
+          "claim": "Operates 15,000 t/year commercial pyrometallurgical furnace facility in Lyon.",
+          "status": "Verified fact",
+          "source": "French Environmental Protection Agency (DREAL) Permit #FR-2019-881",
+          "date": "2022-06-11",
+          "sourceType": "Regulatory Permit",
+          "confidence": "High (99%)",
+          "snippet": "Classified industrial facility operating under approved metallurgical thermal processing regulations."
+        },
+        {
+          "id": "pl-f2",
+          "claim": "Cobalt and nickel recovery yield exceeds 99.0% into commercial alloy matte.",
+          "status": "Verified fact",
+          "source": "Journal of Sustainable Materials Processing, Vol. 41",
+          "date": "2023-04-18",
+          "sourceType": "Peer-Reviewed Journal",
+          "confidence": "High (97%)",
+          "snippet": "Slag analysis demonstrates near-complete reduction of Co and Ni into the liquid alloy phase."
+        },
+        {
+          "id": "pl-f3",
+          "claim": "Novel slag extraction protocol captures >85% of lithium from smelting slag.",
+          "status": "Could not be verified",
+          "source": "Press Release on PR Newswire",
+          "date": "2024-02-10",
+          "sourceType": "Press Release",
+          "confidence": "Low (28%)",
+          "snippet": "Independent metallurgical audits show lithium slag recovery remains at 60-64%; claimed 85% yield not replicated."
+        },
+        {
+          "id": "pl-f4",
+          "claim": "High carbon footprint (>3.8 kg CO2/kg output) creates compliance risk under 2027 EU Battery Regulation.",
+          "status": "AI-generated inference",
+          "source": "ScoutIQ Regulatory Compliance Risk Engine",
+          "date": "2026-11-10",
+          "sourceType": "Model Extrapolation",
+          "confidence": "High (89%)",
+          "snippet": "Thermal furnace energy demands exceed proposed European Commission scope-1 emission caps for circular battery recycling."
+        }
+      ]
+    },
+    {
+      "id": "disassembli-robotics",
+      "name": "DisassembLi Robotics AG",
+      "headline": "Computer-Vision Autonomous EV Battery Pack Disassembly & Depollution",
+      "location": "Zurich, Switzerland",
+      "founded": 2022,
+      "funding": "$9.2M (Seed + Swiss Innovation Agency) [Illustrative]",
+      "category": "Automated Disassembly",
+      "trl": 5,
+      "fitScore": 76,
+      "scoreBreakdown": {
+        "technicalMaturity": 72,
+        "industrialScalability": 70,
+        "ipStrength": 82,
+        "commercialAlignment": 80,
+        "performanceYield": 78
+      },
+      "recommendation": "Priority 4: Upstream dismantling partner; pair with Circura's downstream hydrometallurgy.",
+      "overview": "DisassembLi specializes in automated robotic unscrewing and high-voltage busbar removal for prismatic and cylindrical EV packs. While they do not recycle chemical black mass, their robotic front-end removes 90% of manual labor risks.",
+      "keyStrengths": [
+        "Robotic disassembly cycle time under 12 minutes per 80 kWh pack",
+        "Integrated thermal runaway vision sensors and automated water-mist quench",
+        "Strong patent position in adaptive robotic toolpath generation"
+      ],
+      "keyRisks": [
+        "Does not solve chemical extraction; requires pairing with chemical recycler",
+        "Only lab-validated (TRL 5) on 3 specific OEM pack architectures"
+      ],
+      "comparisonMetrics": {
+        "technologyMaturity": "TRL 5 (Lab cell validation in Zurich)",
+        "patentEvidence": "2 Granted Patents (EP3990211B1, US11881902B2)",
+        "publications": "2 robotics conference proceedings (IEEE ICRA 2024)",
+        "commercialDeployment": "Validation cell at Swiss National Innovation Park",
+        "industrialPartnerships": "1 automotive research consortium member",
+        "fitScore": "76% (Weighted Fit)",
+        "strategicVerdict": "Shortlist #4: Evaluate as modular pre-processing component"
+      },
+      "findings": [
+        {
+          "id": "dl-f1",
+          "claim": "Autonomous disassembly of 80 kWh battery pack in under 12 minutes.",
+          "status": "Verified fact",
+          "source": "IEEE Transactions on Automation Science and Engineering (2024)",
+          "date": "2024-05-11",
+          "sourceType": "Peer-Reviewed Conference/Journal",
+          "confidence": "High (95%)",
+          "snippet": "Experimental cell achieved robotic screw removal and cover separation in 11 minutes 45 seconds."
+        },
+        {
+          "id": "dl-f2",
+          "claim": "Compatible with all 2024 production EV pack architectures without retraining.",
+          "status": "Company-reported claim",
+          "source": "DisassembLi Product Brochure",
+          "date": "2024-07-01",
+          "sourceType": "Marketing Brochure",
+          "confidence": "Medium (58%)",
+          "snippet": "Brochure asserts zero-shot CAD transfer learning; tested in reality on only 3 pack geometry types."
+        },
+        {
+          "id": "dl-f3",
+          "claim": "Will reach TRL 7 industrial pilot readiness by Q3 2027.",
+          "status": "AI-generated inference",
+          "source": "ScoutIQ Technology Roadmap Velocity Tracker",
+          "date": "2026-11-10",
+          "sourceType": "Model Extrapolation",
+          "confidence": "Medium (65%)",
+          "snippet": "Estimated timeline based on historical hardware-robotics development cadence and current grant funding burn."
+        }
+      ]
+    },
+    {
+      "id": "bioleach-recovery",
+      "name": "BioLeach Recovery Labs",
+      "headline": "Microbial Bio-Hydrometallurgical Extraction for Battery Scrap",
+      "location": "Boulder, Colorado, USA",
+      "founded": 2023,
+      "funding": "$3.5M (NSF SBIR Phase II + Pre-Seed) [Illustrative]",
+      "category": "Hydrometallurgy",
+      "trl": 4,
+      "fitScore": 68,
+      "scoreBreakdown": {
+        "technicalMaturity": 52,
+        "industrialScalability": 58,
+        "ipStrength": 75,
+        "commercialAlignment": 72,
+        "performanceYield": 85
+      },
+      "recommendation": "Priority 5: Long-term scientific exploration; disqualified for near-term 2027 production roadmap.",
+      "overview": "BioLeach uses genetically optimized acidophilic bacteria (Acidithiobacillus) to bio-leach nickel, cobalt, and lithium at room temperature without synthetic acids. Extremely low energy footprint, but slow kinetics (72-hour batch times).",
+      "keyStrengths": [
+        "Zero synthetic acid consumption; lowest greenhouse gas footprint",
+        "High selectivity for cobalt and lithium in bioreactor broth"
+      ],
+      "keyRisks": [
+        "TRL 4 (50-liter benchtop fermenters only; unproven at industrial scale)",
+        "Reaction kinetics too slow (72 hrs vs. 90 minutes for chemical hydrometallurgy)"
+      ],
+      "comparisonMetrics": {
+        "technologyMaturity": "TRL 4 (Laboratory 50L benchtop fermenter in Colorado)",
+        "patentEvidence": "1 Pending PCT Application (WO2024/091221A1)",
+        "publications": "1 ACS Sustainable Chemistry publication",
+        "commercialDeployment": "None (Academic lab spin-out)",
+        "industrialPartnerships": "None disclosed",
+        "fitScore": "68% (Weighted Fit)",
+        "strategicVerdict": "Disqualified for 2027 commercial deployment; track academic publications"
+      },
+      "findings": [
+        {
+          "id": "bl-f1",
+          "claim": "Bio-leaching achieves 91% lithium extraction using engineered bacterial strains at 30°C.",
+          "status": "Verified fact",
+          "source": "ACS Sustainable Chemistry & Engineering, Vol. 12",
+          "date": "2024-01-22",
+          "sourceType": "Peer-Reviewed Journal",
+          "confidence": "High (93%)",
+          "snippet": "Bacterial consortium mobilized 91.2% Li from pulverized cathode powder over a 72-hour incubation period."
+        },
+        {
+          "id": "bl-f2",
+          "claim": "Bacterial strains are immune to heavy metal toxicity at commercial pulp densities (>15%).",
+          "status": "Could not be verified",
+          "source": "Startup Investor Presentation Slide 9",
+          "date": "2024-04-05",
+          "sourceType": "Company Slide Deck",
+          "confidence": "Low (25%)",
+          "snippet": "Published research confirms bacterial growth inhibition occurs when copper and nickel concentrations exceed 4% pulp density."
+        }
+      ]
+    }
+  ]
+}

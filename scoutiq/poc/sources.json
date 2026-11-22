@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "src-fraunhofer-audit-2024",
+    "title": "Technical Facility Audit: Continuous Pilot Hydrometallurgy Facility Stuttgart",
+    "publisher": "Fraunhofer Institute & State Industrial Environment Registry",
+    "date": "2024-04-12",
+    "tier": "Tier-1",
+    "company": "Circura Materials GmbH",
+    "text": "Facility inspection confirms continuous acid-leach pilot reactor operating at steady-state 1,000 t/a throughput processing NMC622 black mass. System achieves continuous closed-loop operation with chemical recovery loops intact."
+  },
+  {
+    "source_id": "src-eur-j-metallurgy-2024",
+    "title": "Selective Organic Leaching of Spent Lithium-Ion Cathodes at Moderate Temperatures",
+    "publisher": "European Journal of Sustainable Metallurgy, Vol. 18",
+    "date": "2024-02-18",
+    "tier": "Tier-1",
+    "company": "Circura Materials GmbH",
+    "text": "Analytical ICP-MS assays confirm 95.8 ± 0.4% lithium recovery with iron and aluminum contaminant concentrations below 10 ppm. Cathode precursor achieves 99.6% battery-grade purity."
+  },
+  {
+    "source_id": "src-epo-patent-ep3892011b1",
+    "title": "EP3892011B1: Ultrasonic-Assisted Organic Acid Leaching for Mixed Battery Waste",
+    "publisher": "European Patent Office (EPO) Register",
+    "date": "2023-11-30",
+    "tier": "Tier-1",
+    "company": "Circura Materials GmbH",
+    "text": "Granted patent with 14 independent claims covering ultrasonic selective extraction of lithium carbonate without chlorine gas emissions."
+  },
+  {
+    "source_id": "src-circura-whitepaper-2024",
+    "title": "Circura Materials Corporate Sustainability & Life-Cycle Assessment 2024",
+    "publisher": "Circura Materials GmbH Self-Published Whitepaper",
+    "date": "2024-05-15",
+    "tier": "Tier-3",
+    "company": "Circura Materials GmbH",
+    "text": "Internal life-cycle assessment models demonstrate that Circura proprietary hydrometallurgical processing cuts carbon emissions by 68% compared to traditional pyrometallurgical smelting baselines."
+  },
+  {
+    "source_id": "src-ontario-env-permit-2023",
+    "title": "Industrial Demonstration Facility Operating Permit #ON-7782",
+    "publisher": "Ontario Ministry of the Environment & Climate Change",
+    "date": "2023-09-14",
+    "tier": "Tier-1",
+    "company": "HydraVolt Solutions Inc.",
+    "text": "Authorizes continuous demonstration pilot testing for hydrometallurgical solvent recovery facility up to 500 t/year operational capacity under ambient pressure conditions."
+  },
+  {
+    "source_id": "src-canadian-j-chem-2023",
+    "title": "Ambient Pressure Solvent Stripping of Cobalt and Lithium from Black Mass",
+    "publisher": "Canadian Journal of Chemical Engineering, Vol. 102",
+    "date": "2023-12-05",
+    "tier": "Tier-1",
+    "company": "HydraVolt Solutions Inc.",
+    "text": "Experimental trial data demonstrates 94.2% lithium extraction efficiency at 45°C without requiring high-pressure autoclaves."
+  },
+  {
+    "source_id": "src-french-dreal-permit-2022",
+    "title": "Classified Industrial Environmental Authorization Permit #FR-2019-881",
+    "publisher": "French Regional Directorate for Environment, Planning and Housing (DREAL)",
+    "date": "2022-06-11",
+    "tier": "Tier-1",
+    "company": "PyroLoop Technologies SAS",
+    "text": "Authorizes 15,000 t/year commercial pyrometallurgical smelting furnace for secondary alloy production. Slag output classified under non-hazardous industrial waste."
+  },
+  {
+    "source_id": "src-pyroloop-pr-2024",
+    "title": "PyroLoop Announces Novel Slag Extraction Capturing Over 85% Lithium",
+    "publisher": "PR Newswire Press Release",
+    "date": "2024-02-10",
+    "tier": "Tier-3",
+    "company": "PyroLoop Technologies SAS",
+    "text": "PyroLoop claims new proprietary secondary fluxing process recovers 85% of lithium directly from smelting slag. Independent metallurgical audit not yet published."
+  }
+]

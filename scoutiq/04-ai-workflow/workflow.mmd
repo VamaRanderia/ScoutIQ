@@ -1,0 +1,56 @@
+flowchart TD
+    %% ScoutIQ Agentic Technology Scouting Workflow
+    %% Product Management Case Study - Illustrative System Architecture
+
+    subgraph Phase1["Phase 1: Ingestion & Intent Decomposition"]
+        A[User Business Objective & Constraints] --> B[Objective Parser & Domain Decomposer]
+        B --> C[Structured Search Parameters & Criteria Weights]
+    end
+
+    subgraph Phase2["Phase 2: Agentic Query Planning & Parallel Retrieval"]
+        C --> D[Query Expansion Agent]
+        D -->|Patent Booleans & CPC Classes| E1[(Global Patent Registries: USPTO, EPO, WIPO)]
+        D -->|Chemical & Materials Preprints| E2[(Scientific Literature: arXiv, CrossRef, Semantic Scholar)]
+        D -->|Corporate Regulatory Filings| E3[(Environmental & Industrial Permits: DREAL, EPA)]
+        D -->|Startup Entity Profiles| E4[(Venture & Academic Spinout Directories)]
+        D -->|Technical Whitepapers| E5[(Company Public Web Assets & Press Releases)]
+    end
+
+    subgraph Phase3["Phase 3: Entity Extraction & Structured Synthesis"]
+        E1 & E2 & E3 & E4 & E5 --> F[Multi-Document Entity & Metric Extractor]
+        F --> G[Normalized Startup Profiles: TRL, Throughput, Purity, Patents, Partners]
+    end
+
+    subgraph Phase4["Phase 4: Evidence Verification & Fact Checking"]
+        G --> H[Evidence Verification Engine]
+        H -->|Check Tier-1 Registries & Peer Review| H1{Corroborated by >=2 Independent Sources?}
+        H1 -- Yes --> V1[Tag: Verified Fact - Green]
+        H1 -- No --> H2{Sourced Exclusively from Company PR/Decks?}
+        H2 -- Yes --> V2[Tag: Company-Reported Claim - Amber]
+        H2 -- No --> H3{Synthesized via Domain Analogy/Techno-Economic Model?}
+        H3 -- Yes --> V3[Tag: AI-Generated Inference - Purple]
+        H3 -- No --> V4[Tag: Could Not Be Verified - Red]
+        V1 & V2 & V3 & V4 --> I[Verified Evidence Graph & Citation Registry]
+    end
+
+    subgraph Phase5["Phase 5: Constraint-Weighted Ranking & Shortlisting"]
+        I --> J[Constraint-Weighted Scoring Engine]
+        C -.->|User Importance Weights| J
+        J --> K[Ranked Candidate Pool: Scored on Fit, Not Hype]
+        K --> L[Top-3 Shortlist & Trade-Off Synthesizer]
+    end
+
+    subgraph Phase6["Phase 6: Executive Synthesis & Human-in-the-Loop"]
+        L --> M[Executive Recommendation Dossier Generator]
+        M --> N[Interactive Review Canvas: Sliders, Filters, Evidence Drawer]
+        N --> O{Engineering / Innovation Scout Review}
+        O -- Request Deep Verification / Adjust Weights --> N
+        O -- Approved --> P[Export Final Defensible PDF & Governance Package]
+    end
+
+    style Phase1 fill:#f0f5ff,stroke:#adc6ff,stroke-width:1px
+    style Phase2 fill:#f9f0ff,stroke:#d3adf7,stroke-width:1px
+    style Phase3 fill:#e6fffb,stroke:#87e8de,stroke-width:1px
+    style Phase4 fill:#fffbe6,stroke:#ffe58f,stroke-width:1px
+    style Phase5 fill:#fcffe6,stroke:#eaff8f,stroke-width:1px
+    style Phase6 fill:#f6ffed,stroke:#b7eb8f,stroke-width:1px

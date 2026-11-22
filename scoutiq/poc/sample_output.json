@@ -1,0 +1,115 @@
+{
+  "_meta": {
+    "title": "ScoutIQ Proof of Concept Pipeline",
+    "status": "Product Management Case Study - Illustrative Data",
+    "mode": "Deterministic Verification & Scoring Engine"
+  },
+  "objective": "Closed-Loop EV Battery Recycling & Hydrometallurgical Purity",
+  "ranked_shortlist": [
+    {
+      "rank": 1,
+      "company": "Circura Materials GmbH",
+      "fit_score": 94,
+      "evaluated_trl": 7,
+      "claims": [
+        {
+          "claim": "Continuous hydrometallurgical pilot operating at 1,000 t/year capacity in Stuttgart.",
+          "status": "Verified fact",
+          "source_id": "src-fraunhofer-audit-2024",
+          "confidence": 0.98
+        },
+        {
+          "claim": "Achieves 95.8% recovery yield of battery-grade lithium carbonate (>99.6% purity).",
+          "status": "Verified fact",
+          "source_id": "src-eur-j-metallurgy-2024",
+          "confidence": 0.96
+        },
+        {
+          "claim": "Assignee of granted patent covering selective organic acid leaching without chlorine emissions.",
+          "status": "Verified fact",
+          "source_id": "src-epo-patent-ep3892011b1",
+          "confidence": 0.99
+        },
+        {
+          "claim": "Reduces cradle-to-gate greenhouse gas emissions by 68% compared to pyrometallurgical smelting.",
+          "status": "Company-reported claim",
+          "source_id": "src-circura-whitepaper-2024",
+          "confidence": 0.74
+        },
+        {
+          "claim": "Commercial capex estimated at $42M with EBITDA positive return at 8,000 t/year utilization.",
+          "status": "AI-generated inference",
+          "source_id": "scoutiq-techno-economic-model",
+          "confidence": 0.68
+        },
+        {
+          "claim": "Secured commercial off-take contract for 3,000 t/year with German OEM.",
+          "status": "Could not be verified",
+          "source_id": "unverified-press-claim",
+          "confidence": 0.22
+        }
+      ],
+      "recommendation": "Priority 1: Immediate sample assay and JDA negotiation for continuous pilot integration."
+    },
+    {
+      "rank": 2,
+      "company": "HydraVolt Solutions Inc.",
+      "fit_score": 89,
+      "evaluated_trl": 6,
+      "claims": [
+        {
+          "claim": "Operates 500 t/year demonstration facility in Hamilton, Ontario under environmental permit.",
+          "status": "Verified fact",
+          "source_id": "src-ontario-env-permit-2023",
+          "confidence": 0.97
+        },
+        {
+          "claim": "Demonstrates 94.2% lithium extraction without requiring high-pressure autoclaves.",
+          "status": "Verified fact",
+          "source_id": "src-canadian-j-chem-2023",
+          "confidence": 0.94
+        },
+        {
+          "claim": "Proprietary ionic liquid solvent regenerates with 99% efficiency over 50 cycles.",
+          "status": "Company-reported claim",
+          "source_id": "hydravolt-pitch-deck-2024",
+          "confidence": 0.62
+        },
+        {
+          "claim": "Single supplier dependency on specialty quaternary ammonium salts.",
+          "status": "AI-generated inference",
+          "source_id": "scoutiq-chemical-supply-analyzer",
+          "confidence": 0.71
+        }
+      ],
+      "recommendation": "Priority 2: Qualified secondary partner; audit ambient solvent loss rates."
+    },
+    {
+      "rank": 3,
+      "company": "PyroLoop Technologies SAS",
+      "fit_score": 82,
+      "evaluated_trl": 8,
+      "claims": [
+        {
+          "claim": "Operates 15,000 t/year commercial pyrometallurgical furnace in Lyon under environmental authorization.",
+          "status": "Verified fact",
+          "source_id": "src-french-dreal-permit-2022",
+          "confidence": 0.99
+        },
+        {
+          "claim": "New secondary fluxing process recovers 85% of lithium from smelting slag.",
+          "status": "Could not be verified",
+          "source_id": "src-pyroloop-pr-2024",
+          "confidence": 0.28
+        },
+        {
+          "claim": "Carbon footprint exceeding 3.8 kg CO2/kg creates compliance risk under 2027 EU Battery Regulation.",
+          "status": "AI-generated inference",
+          "source_id": "scoutiq-lca-regulatory-engine",
+          "confidence": 0.89
+        }
+      ],
+      "recommendation": "Priority 3: High throughput stopgap; trade-off on lithium recovery and carbon emissions."
+    }
+  ]
+}
